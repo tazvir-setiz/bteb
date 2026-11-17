@@ -32,6 +32,33 @@
 
 ---
 
+## 📚 مستندات و راهنماهای تکمیلی
+
+- 📖 **[راهنمای جامع کاربری و آموزش کار با ربات (User Manual)](file:///e:/personal/makarem/bteb/docs/user_manual.md):** آموزش تصویری و گام‌به‌گام کار با دکمه‌های داشبورد بله، نحوه ادمین کردن بات در کانال‌ها و رفع اشکالات متداول.
+- 🌐 **[راهنمای استقرار در هاست cPanel (cPanel Deployment Guide)](file:///e:/personal/makarem/bteb/docs/cpanel_guide.md):** آموزش راه‌اندازی ربات در هاست اشتراکی cPanel با پایتون و فعال نگه داشتن دائمی ۲۴ ساعته با دیده‌بان Cron Job.
+- ☁️ **[راهنمای استقرار در سرور ابری Railway (Railway Deployment Guide)](file:///e:/personal/makarem/bteb/docs/railway_guide.md):** آموزش دیپلوی آسان ربات با داکر و اتصال Persistent Volume در Railway.
+
+---
+
+## 🐳 اجرای سریع با داکر (Docker & Docker Compose)
+
+اگر روی سرور خود داکر دارید، می‌توانید ربات را تنها با دو دستور اجرا کنید:
+
+```bash
+# ۱. تنظیم توکن در فایل .env
+cp .env.example .env
+
+# ۲. اجرای کانتینر در پس‌زمینه
+docker compose up -d --build
+```
+
+مشاهده لاگ‌های کانتینر داکر:
+```bash
+docker compose logs -f
+```
+
+---
+
 ## 🏗 ساختار پروژه
 
 ```
