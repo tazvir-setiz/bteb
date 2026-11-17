@@ -1,0 +1,16 @@
+services:
+  bale-to-eitaa-bot:
+    build: .
+    container_name: bale_eitaa_bot
+    restart: always
+    env_file:
+      - .env
+    environment:
+      - DATA_STORAGE_PATH=/app/data/bot_data.json
+    volumes:
+      - ./data:/app/data
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
