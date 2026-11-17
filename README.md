@@ -35,6 +35,7 @@
 ## 📚 مستندات و راهنماهای تکمیلی
 
 - 📖 **[راهنمای جامع کاربری و آموزش کار با ربات (User Manual)](file:///e:/personal/makarem/bteb/docs/user_manual.md):** آموزش تصویری و گام‌به‌گام کار با دکمه‌های داشبورد بله، نحوه ادمین کردن بات در کانال‌ها و رفع اشکالات متداول.
+- ⚙️ **[راهنمای منابع سخت‌افزاری و سیستم پیشنهادی (System Requirements)](file:///e:/personal/makarem/bteb/docs/system_requirements.md):** تحلیل دقیق میزان رم، پردازنده، دیسک و پهنای باند مورد نیاز و انتخاب اقتصادی‌ترین پلن ابری.
 - 🌐 **[راهنمای استقرار در هاست cPanel (cPanel Deployment Guide)](file:///e:/personal/makarem/bteb/docs/cpanel_guide.md):** آموزش راه‌اندازی ربات در هاست اشتراکی cPanel با پایتون و فعال نگه داشتن دائمی ۲۴ ساعته با دیده‌بان Cron Job.
 - ☁️ **[راهنمای استقرار در سرور ابری Railway (Railway Deployment Guide)](file:///e:/personal/makarem/bteb/docs/railway_guide.md):** آموزش دیپلوی آسان ربات با داکر و اتصال Persistent Volume در Railway.
 
